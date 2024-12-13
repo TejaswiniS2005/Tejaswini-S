@@ -1,9 +1,8 @@
-#include<stdio.h>
+zx#include<stdio.h>
 #include<unistd.h>
-void main()
+void main() 
 { 
- char *cmnd="ls";
- char *arg_list[]={"ls","-l",NULL};
+ char *cmnd="ls";cc-l",NULL};
  printf("Before execvp()\n");
  printf("Creating another process using fork()\n");
  pid_t p=fork();
